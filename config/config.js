@@ -113,6 +113,38 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		
+		{
+		  module: "MMM-NowPlayingOnSpotify",
+		  position: "top_left",
+
+		  config: {
+		    clientID: "3efa99351f944794b08d00a84a73cc55",
+		    clientSecret: "a710ee9066e34007a2bac4b09562b4a2",
+		    accessToken: "BQB0s1zfmdqBCgg9iOJf41zfzTKJQq9lOvcn5GZBzxc-oflfsVCfgOVJjxoxdbYsnnV2o562DKzsTW0dkZVZEu9v9J0pBg6uXiZFzVqfyQfdnIFVBNy6MDUoYLXn5PeJSTYkROIunModni87SL8et_Ne8tIKhaaKXlZ7rIOCoQ",
+		    refreshToken: "AQCl3yxjCt74WiXqpCYjjivsgKQ2aBbfP9FKbFK1CfposDa51tlDPWmhJNe7y3Uq3w2jVjfMJI_l8EqEbEQzjDkMqLXN2-2prXpcGOxjCzYV4Cg1yeSiL7R5EZVqcxmCft0"
+		  }
+		},
+		
+		{
+		    module: 'MMM-Remote-Control',
+		    config: {
+		      apiKey: 'jordanboy2007'
+		    },
+		},
+		{
+			module: 'MMM-Sounds',
+			config: {
+				startupSound:   'wobble.wav',
+				quietTimeStart: '23:00',      // 11pm
+				quietTimeEnd:   '07:00'       // 7am
+			}
+		},
+		
+
+		
+				
+
 	]
 };
 
