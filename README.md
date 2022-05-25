@@ -1,13 +1,13 @@
 # SmartMirror
 
+### Instalar dependencias de MagicMirror2
 
+``npm run install``
 
-npm run install para instalar dependencias de MagicMirror2
+### Iniciar el programa
 
-npm run preinstall y npm run postinstall para instalar dependencias de Detector
+``npm run start``
 
-npm run install para instalar dependencias de Google Assistant
+### Cerrar el programa
 
-npm run start para iniciar el programa
-
-Ctrl + Q para cerrar el programa
+``Ctrl + Q``
